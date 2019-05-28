@@ -1,0 +1,31 @@
+/*	
+  File: READ ME
+  By Sarah Deters	
+  Printed: 3-May-2018	
+*/
+
+completed sql files:
+	- createdb.sql = creates the database tables
+	- addHead.sql = inserts info into the HEAD table
+	- addSub.sql = inserts info into the SUBHEAD table
+	- addStore.sql = inserts info into the STORE table
+	- addCc.sql = inserts info into the CRCARD table
+	- deldb.sql = deletes the database, including constraints
+	- addexpMast.sql = Prompts user for info, inserts info into int EXPMAST table
+	- display.sql = Displays all tables and their data
+	- getexp1d.sql = queries for 7a specifications
+	
+incomplete files:
+	- addexpDet.sql
+	- addexpPay.sql
+	
+Lacking files:
+	- chkexp.sql
+	- getexp2d.sql
+	- getexpcc.sql
+	- getexphead.sql
+
+For addexpMast:
+	- Make sure the date is in the format '01-JAN-18' (day-month-year), with the month being a three letter string
+	- Do not input the money symbol along with the cash amount
+	- The store code is 2 letters, not the full store name
